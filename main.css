@@ -1,0 +1,278 @@
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-ExtraBold;
+  src: url('../fonts/montserrat/Montserrat-ExtraBold.ttf'); 
+}
+
+#wrapper{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+nav{
+  background-color: #f125c5;
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+ul li{
+  list-style-type: none;
+  padding: px;
+  color: #0a0521;
+  margin: 35px;
+}
+ul li:hover{
+  background-color: #c4139e;
+}
+
+figure img{
+    width: 100%;
+}
+ul li img{
+    display: none;
+}
+#raiz:link{
+    color: #ffffff;
+}
+
+
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+input {
+	outline: none;
+	border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+button {
+    border-style: none;
+	   
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+body {
+  padding: 15px;
+  background: linear-gradient(#f9f9f8,  #383737 );/* insira o gradiente de fundo */ 
+  background-attachment: fixed;/* fixar o gradiente no fundo */ 
+   
+}
+
+.container-contact1 {
+  width: 740px;
+  background-color: #bcb9b9;
+  border-radius: 30px 30px 130px 130px;/* arredondar os cantos superiores em 30px e inferiores em 130px */
+  margin: auto;
+  padding: 50px;/* espaçamento do conteúdo para as bordas de 50px */
+  box-shadow: 0px 1px 5px 1px;/*adicionar sombra na caixa do formulário */ 
+  padding-bottom: 50px;
+  
+}
+
+.contact1-form {
+  width: 640px;/* tamanho da caixa 640px */
+  
+}
+
+.contact1-form-title {
+  display: block;
+  font-family: Montserrat-ExtraBold;
+  font-size: 24px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 44px;
+}
+
+input.input1 {
+  height: 50px;/* altura de 50px para o campo input */
+  border-radius: 15px;/* canto arredondado de 15px */
+  
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+textarea.input1 {
+  height: 150px;/* altura de 150px para o campo textarea */
+  border-radius: 15px;/* canto arredondado de 15px */
+  
+  padding: 12px 30px;
+  margin-bottom: 20px;
+}
+
+.input1 {  
+  width: 100%;
+  background: #f449be;
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #1b38d8;
+}
+
+.contact1-form-btn {
+  width: 193px;/* largura de 193px para o botão */
+  height: 50px;/* altura de 50px para o botão */
+  border-radius: 25px;/* canto arredondado de 25px */
+  margin: auto;/* centralizar a caixa */
+  display: block;/* configurar a visualização para bloco */
+  
+  background: #e90aaa;
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #0e0606;  
+  padding: 0 25px;  
+}
+
+.contact1-form-btn:hover {
+  background: #e80808;
+}
+
+footer{
+  width: 100%;
+  background: #2c2c2c;
+  color: #d521ae;
+  text-align: center;
+  height: 50px;
+  margin-top: 50px;
+  padding-top: 10px;
+}
+
+/*css do produto*/
+
+#principal{
+  width: 690px;
+  margin: auto;
+}
+h3{
+  border: solid;
+  border-radius: 15px 16px 3px 3px;
+  text-align: center;
+  font-size: 15px;
+  color: #e630bf;
+  height: 50px;
+  width: 650px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.artigo1{
+  padding: 10px;
+  border: solid;
+  width: 320px;
+  height: 750px;
+  display: inline-block;
+  margin: 15px;
+  border-radius: 30px 23px 23px 30px;
+  right: 310px;
+  box-shadow: 10px 10px 10px 0px #e372db;
+}
+.artigo2{
+   padding: 30px;
+   border: solid;
+   width: 320px;
+   height: 600px;
+   display: inline-block;
+   margin: 15px;
+   border-radius: 13px 23px 23px 13px;
+   right: 310px;
+   box-shadow: 10px 10px 10px 0px #e372db;
+}
+.formulario{
+  border: solid;
+  width: 633px;
+  height: 130px;
+  position: relative;
+  padding: 10px;
+  border-radius: 0px 0px 13px 13px;
+  margin-left: 15px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#img2{
+  padding-bottom: 20px;
+  width: 200px;
+  height: 200px;
+
+}
+textarea{
+color: #0b1e12;
+}
+
+/*termina css do produto*/
+
+
+
+
+@media screen and (max-width: 600px){
+    
+  #wrapper{
+      flex-direction: row;
+      flex-wrap: nowrap;
+  }
+
+  nav{
+      width: 20%;
+  }
+  nav ul{
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      padding: 0px;
+  }
+  nav ul li img{
+      display: block
+  }
+  nav ul li span{
+      display: none;
+  }
+  figure{
+      width: 90%;
+  }
+  #raiz{
+      width: 50px;
+      height: 50px;
+  }
+  
+ 
+  .artigo2{
+     padding: 30px;
+     border: solid;
+     width: 350px;
+     height: 550px;
+     display: flexbox;
+     margin: 15px;
+     border-radius: 13px 0px 0px 13px;
+     right: 310px;
+     box-shadow: 10px 10px 10px 0px #eb21bc;
+  }
+  #img2{
+    padding-bottom: 20px;
+    width: 100px;
+    height: 100px;
+      
+  }  
+  
+
+}

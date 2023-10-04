@@ -1,0 +1,97 @@
+body{
+
+background: linear-gradient(#ffffff,  #383737 );
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+nav{
+    background-color: #e627d3;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+ul li{
+    list-style-type: none;
+    padding: 20px;
+    color: #050540;
+    margin: 0px;
+}
+ul li:hover{
+    background-color: #e143e1;
+}
+      .main{
+        display: flex;
+      width: 100%;
+      height:110vh;
+      }
+       
+      
+    .imagem{
+      background: url(img/foto\ claudia.jpg);
+      background-repeat: no-repeat;
+      background-size:300px;
+      background-position:center;
+      width: 50%;
+      height:80vh;
+      
+    }
+  
+      .depoimento{
+          width: 100%;
+          height: 150vh;
+          text-align:justify;
+          font-weight:bold;
+          font-size:18px;
+          margin:50px;
+         
+     }
+  
+      h1 {
+        color: fuchsia;
+        text-align: center;
+        font-size: 30px;
+        font-style: arial;
+        font-family:fredericka the great,fantasy;
+        margin-bottom: 1rem;
+      }
+.icone{
+    display: none;
+}        
+      @media (max-width: 768px) {
+  
+          .main {
+            flex-direction: column;
+            align-items: center;
+            height: 326vh;
+      }
+          .imagem {
+            background-image: url(img/foto\ claudia.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            width: 80%;
+            height: 90vh;
+        
+            max-width:500px;
+          }
+          .depoimento {
+              width: 90%;
+             
+            }
+          }
+          footer{
+
+            width: 100%;
+            background: #2c2c2c;
+            color: #dd60db;
+            text-align: center;
+            height: 50px;
+            margin-top: 50px;
+            padding-top: 10px;
+          }

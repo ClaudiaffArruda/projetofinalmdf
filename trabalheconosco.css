@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#f9f9f8,  #383737 );/* insira o gradiente de fundo */ 
+    background-attachment: fixed;/* fixar o gradiente no fundo */
+}
+@font-face {
+      font-family: Montserrat-Bold;
+      src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
+    }
+    
+    @font-face {
+      font-family: Montserrat-ExtraBold;
+      src: url('../fonts/montserrat/Montserrat-ExtraBold.ttf'); 
+    }
+    
+    #wrapper{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding-bottom: 50px;
+    }
+    nav{
+      background-color: #f125c5;
+    }
+    nav ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      
+    }
+    ul li{
+      
+      list-style-type: none;
+      padding: px;
+      color: #0a0521;
+      margin: 35px;
+    }
+    ul li:hover{
+      background-color: #c4139e;
+    }
+    .icone{
+      display: none;
+    }
+
+    @media screen and (max-width: 600px){
+    
+      #wrapper{
+          flex-direction: row;
+          flex-wrap: nowrap;
+      }
+      nav{
+          width: 20%;
+      }
+      nav ul{
+          flex-direction: column;
+          text-align: center;
+          width: 100%;
+          padding: 0px;
+      }
+      nav ul li img{
+          display: block
+      }
+      nav ul li span{
+          display: none;
+      }
+      figure{
+          width: 90%;
+      }
+      #raiz{
+          width: 50px;
+          height: 50px;
+      }
+  }
+    
+
+  section h2 {
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+  }
+  section {
+    padding: 20px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  fieldset {
+    margin-bottom: 20px;
+    border: none;
+  }
+  
+  legend {
+    font-weight: bold;
+  }
+  
+  label,
+  input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #070207;
+    color: #b916b9;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+    footer{
+
+    width: 100%;
+    background: #2c2c2c;
+    color: #dd60db;
+    text-align: center;
+    height: 50px;
+    margin-top: 50px;
+    padding-top: 10px;
+  }
